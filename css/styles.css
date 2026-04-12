@@ -1,0 +1,28 @@
+/* INDEX */
+.navhorizontal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorlogo{
+    display:block;
+    display: flex;
+}
+#logo{
+    width: 180px;
+}
+
+/* CATEGORY */
+
+
+
+/* LOGIN */
+
+
+/* PRODUCT */
+
+
+/* REGISTER */
+
+
+/* SEARCH */
