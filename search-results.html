@@ -6,25 +6,24 @@
     <title>Resultados de busqueda</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="bodySearch">
    <header>
-<div class="contenedorlogo">
-            <a href="./index.html">
-            <img src="./images/logo.png" id="logo"> 
-        </div>
 
         <nav class="navhorizontal">
             <a href="./index.html">Home</a>
             <a href="./login.html">Login</a>
             <a href="./register.html">Register</a>
-        </nav>
-            
-      <div class="busqueda">
-    <form action="search-results.html.html">
+
+            <form action="search-results.html.html">
         <input type="text" name="buscar" id="buscar" placeholder="Buscar...">
         <button type="button">Buscar</button>
         </form>
-        </div>
+        </nav>
+            
+       <div class="contenedorlogo">
+       <a href="./index.html"></a>
+       <img src="./images/logo.png" alt="" id="logo">
+       </div>
 </header> 
 <main>
     <aside>
@@ -37,32 +36,41 @@
         </ul> 
     </aside>
 
-    <section class="Resultados">
-        <h1>Resultados de busqueda para: Buzos</h1>
 
-    <div class="productos">
-<article>
-    <img src="./images/buzo1.jpg" alt="">
+<section class="Resultados">
+        <h1>Eureka</h1>
+        <h2>Resultados de busqueda para: Buzos</h2>
+        <br>
+
+<section class="contenedorProductos">
+<article class="productos">
+    <img src="./images/buzo1.jpg" alt="" class="fotoProducto"
+    >
     <h3>Buzo 1</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat culpa tempore iure, distinctio rem autem, officia nobis commodi incidunt voluptate velit ad, tenetur provident perferendis temporibus possimus laudantium voluptatibus quisquam!</p>
     <a href="./product.html">Ver detalle</a>
+    <br>
 </article>
 
-<article>
-    <img src="./images/buzo2.jpg" alt="">
-    <h3>buzo 2</h3>
+<article class="productos">
+    <img src="./images/buzo2.jpg" alt="" class="fotoProducto">
+    <h3>Buzo 2</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur commodi eaque nobis? Debitis aliquid iure blanditiis voluptatibus. Libero aut, quia cum rerum quos ducimus mollitia dolorum odit exercitationem magni!</p>
 <a href="./product.html">Ver detalle</a>
+ <br>
 </article>
+<article class="productos">
+    <img src="./images/buzo3.jpg" alt="" class="fotoProducto">
+    <h3>Buzo 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur commodi eaque nobis? Debitis aliquid iure blanditiis voluptatibus. Libero aut, quia cum rerum quos ducimus mollitia dolorum odit exercitationem magni!</p>
+<a href="./product.html">Ver detalle</a>
+<br>
+</article>
+</section>
 
-<article>
-    <img src="./images/buzo3.jpg" alt="">
-    <h3>buzo 3</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur commodi eaque nobis? Debitis aliquid iure blanditiis voluptatibus. Libero aut, quia cum rerum quos ducimus mollitia dolorum odit exercitationem magni!</p>
-<a href="./product.html">Ver detalle</a>
-</article>
-    </div>
-    <p class="avisoNoHay">No hay datos coincidentes con el término buscado.
+<br><br>
+
+<p class="avisoNoHay">No hay datos coincidentes con el término buscado.
 </p>
 
         </section>
