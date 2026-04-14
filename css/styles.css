@@ -1,7 +1,19 @@
 /* INDEX */
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .navhorizontal{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.barra{
+    margin-right: 10px;
 }
 
 .contenedorlogo{
