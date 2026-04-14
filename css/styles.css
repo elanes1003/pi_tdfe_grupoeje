@@ -1,28 +1,96 @@
+/* FONTS */
+
+
+
 /* INDEX */
 *{
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "montserrat";
+}
+body{
+    padding: 10px;
+    background-color:#f7f4ef ;
+    color: #4e3b31;
 }
 
 .navhorizontal{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
+    align-items: center;
+}
+.navhorizontal a{
+    text-decoration: none;
+    color: #4e3b31;
 }
 .barra{
     margin-right: 10px;
+    text-align: right;
 }
 
 .contenedorlogo{
-    display:block;
-    display: flex;
+display: flex;
+justify-content: center;
+width: 100%;
+align-items: flex-start;
+background-color:#f7f4ef 
 }
+
 #logo{
-    width: 180px;
+width: 180px;
+text-align: center;
 }
+.aside{
+  text-align: left;
+  text-transform: uppercase;
+  list-style:none;
+  text-decoration:none;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: #9c938a;
+}
+.aside li{
+    font-family: "monserrat";
+    color: white;
+}
+.aside a{
+text-decoration: none;
+color: white;
+}
+.nuestros-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15%;    
+}
+.producto{
+    width: 20%;
+    justify-content: center;
+}
+.producto img{
+    width: 100%;
+    height: auto;
+}
+.furniture{
+    height: 426px ;
+}
+.producto a{
+    text-decoration: none;
+    color: #4e3b31; 
+}
+.productos-destacados{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
 
 /* CATEGORY */
 
@@ -38,3 +106,64 @@
 
 
 /* SEARCH */
+
+.bodySearch{
+    font-family: 'montserrat';
+    margin: 0%;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6b4f35;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: left;
+    color: #8c7864;
+}
+
+h3{
+color: #735f4d;
+}
+
+.contenedorProductos{
+    text-align: center;
+    width: 100%;
+   
+}
+
+.productos{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    margin: 1%;
+        color: #333333;
+
+
+}
+
+.fotoProducto{
+    width: 100%;
+    height: auto;
+}
+
+p{
+ color: #999999;   
+}
+
+
+
+
+
+
+
+
+
+
+
