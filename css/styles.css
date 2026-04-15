@@ -60,7 +60,7 @@ background-color:#f7f4ef ;
 text-decoration: none;
 color: white;
 }
-.nuestros-productos{
+.nuestrosproductos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -83,7 +83,7 @@ color: white;
     text-decoration: none;
     color: #4e3b31; 
 }
-.productos-destacados{
+.productosdestacados{
      display: flex;
     flex-direction: row;
     flex-wrap: wrap;
