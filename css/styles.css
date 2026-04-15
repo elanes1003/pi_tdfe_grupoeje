@@ -1,5 +1,12 @@
 /* FONTS */
-
+.opensans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 
 /* INDEX */
@@ -7,8 +14,8 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "montserrat";
 }
+
 body{
     padding: 10px;
     background-color:#f7f4ef ;
@@ -39,7 +46,7 @@ background-color:#f7f4ef
 }
 
 #logo{
-width: 180px;
+width: 300px;
 text-align: center;
 background-color:#f7f4ef ;
 }
@@ -53,13 +60,17 @@ background-color:#f7f4ef ;
   background-color: #9c938a;
 }
 .aside li{
-    font-family: "monserrat";
     color: white;
 }
 .aside a{
 text-decoration: none;
 color: white;
 }
+
+.contenedorprod{
+    display:flex;
+}
+
 .nuestros-productos{
     display: flex;
     flex-direction: row;
