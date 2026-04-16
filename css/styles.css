@@ -72,36 +72,84 @@ color: white;
     display:flex;
     flex-direction: row;
 }
-
-.nuestrosProductos{
+.main{
+    margin-left: 5%;
+}
+.nuestrosproductos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 10%;    
+    justify-content: space-between;
+    margin-bottom: 5%;    
 }
 .producto{
     width: 20%;
     justify-content: center;
     margin-bottom: 5%;
+    padding: 20px;
+}
+.product p{
+    text-align: justify;
+    margin-bottom:10%;
+    display: block;
+    justify-content: center;
+    text-align: justify;
 }
 .producto img{
     width: 100%;
     height: auto;
-}
-.furniture{
-    height: 426px ;
+    margin-bottom: 2%;
 }
 .producto a{
     text-decoration: none;
-    color: #4e3b31; 
+    font-size: 10px;
+    color: #f7f4ef; 
+    background-color:#735f4d;
+    height: 20px;
+    width: 40px;
+    padding:5px;
+    text-align: center;
+   
+
+    
 }
 .productosdestacados{
      display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+  
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p{
+   color: #735f4d;
+}
+
+
+.iconos{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    margin-top: 1%;
+}
+.iconos img{
+    width: 40px;
+    height: 30px;
+}
+
+
+
 
 /* CATEGORY */
 
