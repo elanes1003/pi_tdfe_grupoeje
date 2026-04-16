@@ -70,6 +70,7 @@ color: white;
 
 .contenedorprod{
     display:flex;
+    flex-direction: row;
 }
 
 .nuestrosProductos{
