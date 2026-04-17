@@ -132,10 +132,8 @@ color: white;
     padding: 5px;
 }
 .footer p{
-   color: #735f4d;
+   color: #f7f4ef;
 }
-
-
 .iconos{
     display:flex;
     flex-direction: row;
@@ -164,6 +162,68 @@ font-size: 26px;
 
 
 /* PRODUCT */
+.divproductjl{
+    display: flex;
+    flex-direction: column ;
+}
+.productjl{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+.productjl img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: 5%;
+}
+.infoproduct{
+    display: block;
+    background-color: #9c938a;
+    width: 50%;
+    padding: 50px;
+    border-radius: 8px;
+    height: fit-content;
+}
+.infoproduct p{
+    color: white;
+    margin-bottom: 6%;
+    font-size: 18px;
+}
+.infoproduct h1{
+    margin-bottom: 10%;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tags li{
+    list-style: none;
+    font-size: 20px;
+   
+}
+.productreview{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.reviews{
+
+    border-style: solid;
+    border-color:#9c938a ;
+    border-width: 4px;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding:10px;
+    background-color: rgba(156, 147, 138, 0.2);
+    
+}
+.reviews p{
+    color: #5C4A3E;
+}
 
 
 /* REGISTER */
