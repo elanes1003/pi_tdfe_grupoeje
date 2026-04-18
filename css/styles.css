@@ -117,14 +117,15 @@ color: white;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-  
 }
+
 .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #9c938a;
 }
+
 .divfooter{
     display: flex;
     flex-direction: column;
@@ -158,7 +159,33 @@ font-size: 26px;
 }
 
 
-/* LOGIN */
+/* LOGIN Y REGISTER */
+
+a{
+    text-decoration: none;
+    color: #4e3b31;
+}
+.linkRL{
+    text-decoration: underline;
+    color: #333333;
+}
+
+.contenidologin{
+    padding-bottom: 200px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.contenidoregister{
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.titlr{
+text-align: left;
+}
 
 
 /* PRODUCT */
@@ -210,7 +237,6 @@ font-size: 26px;
     padding: 20px;
 }
 .reviews{
-
     border-style: solid;
     border-color:#9c938a ;
     border-width: 4px;
@@ -255,9 +281,12 @@ color: #735f4d;
 }
 
 .contenedorProductos{
-    text-align: center;
-    width: 100%;
-   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;    
+
 }
 
 .productos{
@@ -277,11 +306,14 @@ color: #735f4d;
 }
 
 p{
- color: #999999;   
+ color:  #4e3b31;   
 }
 
 
-
+.avisoNoHay{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
