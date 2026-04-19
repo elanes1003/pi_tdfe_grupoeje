@@ -320,11 +320,64 @@ p{
 
 @media(max-width: 420px)
 {
-
-    
+body{
+    padding:0;
+    font-size:9px;
+}
+.contenedorprod{
+    display:flex;
+    flex-direction: column;
 }
 
+#logo{
+width: 200px;
+text-align: center;
+background-color:#f7f4ef ;
+}
+.producto{
+    width: 50%;
+}
+h2{
+    font-size: 20px;
+}
+.iconos img{
+    width: 30px;
+    height: 20px;
+}
+.productjl{
+    flex-direction: column;
+}
+.productjl img{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    height: fit-content;
+}
+.infoproduct{
+    width: 100%;
+    padding: 10px;
+}
+.infoproduct p{
+    color: white;
+    margin-bottom: 6%;
+    font-size: 10px;
+}
+.infoproduct h1{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
 
+.tags li{
+    font-size: 10px;
+}
+aside ul{
+    margin-bottom:0%;
+
+
+ 
+}
+}
 
 
 
