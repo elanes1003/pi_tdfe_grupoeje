@@ -45,6 +45,13 @@ width: 100%;
 align-items: flex-start;
 background-color:#f7f4ef 
 }
+.contenedorlogo{
+border-bottom-style: solid;
+margin-bottom: 20px;
+margin-top: 20px;
+border-top-style: solid;
+border-color: #4e3b31 ;
+}
 
 #logo{
 width: 300px;
@@ -171,7 +178,7 @@ a{
 }
 
 .contenidologin{
-    padding-bottom: 200px;
+    padding: 80px;
     text-align: center;
 }
 h1{
@@ -179,13 +186,11 @@ h1{
 }
 
 .contenidoregister{
-    padding-bottom: 200px;
+    padding: 80px;
     text-align: center;
 }
 
-.titlr{
-text-align: left;
-}
+
 
 
 /* PRODUCT */
@@ -371,12 +376,20 @@ h2{
 .tags li{
     font-size: 10px;
 }
+
+.aside{
+    padding: 3%;
+    text-align: center;
+    font-size: 16px;
+}
 aside ul{
     margin-bottom:0%;
 
-
- 
 }
+.categorias{
+    text-align: center;
+}
+
 }
 
 
