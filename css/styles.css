@@ -67,13 +67,16 @@ p{
     background-color: #f7f4ef;
 }
 
+aside{
+    padding: 30px;
+    margin-bottom: 10%;
+    background-color: #9c938a;
+    height: fit-content;
+}
 .aside {
     text-align: left;
     list-style: none;
     text-decoration: none;
-    padding: 30px;
-    margin-bottom: 10%;
-    background-color: #9c938a;
 }
 
 .aside li {
