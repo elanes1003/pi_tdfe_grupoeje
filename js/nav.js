@@ -8,9 +8,9 @@ fetch('https://dummyjson.com/products/category-list')
         console.log(data);
         let categoriasNombres = ""
         for (let i = 0; i < data.length; i++) {
-            const categoria = data[i];
+            const element = data[i];
             
-            categoriasNombres += `<li><a hrefa href="category.html?id=${categoria}">${categoria}</a></li>`
+            categoriasNombres += `<li><a href="category.html?id=${element}">${element}</a></li>`
         }
         listaCategorias.innerHTML = categoriasNombres
     })
