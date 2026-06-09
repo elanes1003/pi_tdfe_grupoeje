@@ -20,7 +20,8 @@ login.addEventListener ("submit",function(event){
         alert("Las contraseñas no coinciden")
     }    
     else{
-    this.submit();
+
+        this.submit();
     }
 
 })

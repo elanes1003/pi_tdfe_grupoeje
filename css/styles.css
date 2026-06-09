@@ -15,6 +15,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.logout{
+    display:none;
+}
+.saludoPersonalizado{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
 body {
     padding: 10px;
@@ -315,6 +324,7 @@ margin-bottom: 5%;
 
 .reviews p {
     color: #5C4A3E;
+    margin-bottom: 0%;
 }
 
 
