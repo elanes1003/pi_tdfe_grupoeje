@@ -13,16 +13,18 @@
    <header class="header">
     
         <nav class="navhorizontal">
-            <a class="barra" href="./index.html">Home</a>
-            <a class="barra" href="./login.html">Login</a>
-            <a class="barra" href="./register.html">Register</a>
-                <form action="./search-results.html" method="get">
-                    <input id="busqueda" type="text" name="busqueda">
-                    <button type="submit">Buscar</button>
-                </form>
+            <nav class="ocultarLogin">
+                <a class="barra" href="./index.html">Home</a>
+                <a class="barra" href="./login.html">Login</a>
+                <a class="barra" href="./register.html">Register</a>
+            </nav>
+        <form action="./search-results.html" method="get" >
+        <input id="busqueda" type="text" name="busqueda">
+        <button type="submit">Buscar</button>
+        </form>
                 
-        </nav>
-        <nav class="saludoPersonalizado"></nav>
+       </nav>
+        <nav class="saludoPersonalizado">
         <h1 class="saludo"></h1>
         <a class="barra" class="logout" href="./logout.html">Logout</a>
         </nav>

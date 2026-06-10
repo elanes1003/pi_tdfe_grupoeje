@@ -15,15 +15,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.logout{
+.saludoPersonalizado{
     display:none;
 }
-.saludoPersonalizado{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 body {
     padding: 10px;
@@ -487,7 +482,18 @@ p {
         font-size: 10px;
 
     }
+    .saludo {
+        font-size: 15px;
 
+    }
+    .header{
+        padding: 20px;
+    }
+    .barraBusqueda{
+        display: flex;
+        flex-direction: row;
+        justify-content : flex-end;
+    }
 
     
 
