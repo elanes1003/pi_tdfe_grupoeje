@@ -14,15 +14,18 @@
     <header class="header">
         
         <nav class="navhorizontal">
+
+            <nav class="ocultarLogin">
             <a class="barra" href="./index.html">Home</a>
             <a class="barra" href="./login.html">Login</a>
-            <a class="barra" href="./register.html">Register</a>
-                <form action="./search-results.html" method="get">
+            <a class="barra" href="./register.html">Register</a> 
+            </nav>
+            <form action="./search-results.html" method="get" class="barraBusqueda">
                     <input id="busqueda" type="text" name="busqueda">
                     <button type="submit">Buscar</button>
-                </form>
-                
+            </form>   
         </nav>
+       
         
          <nav class="saludoPersonalizado">
         <h1 class="saludo"></h1>
@@ -37,62 +40,22 @@
 
     </header>
 <section class="contenedorprod"> 
- <aside>
+ <aside class="contenedorProducto">
+
         <h2 class="categorias">Categorías</h2>
             <ul class="aside" id="menuCategorias">
             </ul>
         </aside>
-<section class="divproductjl">
+    <section class="divproductjl">  
+    <section class="productDetail">
+    
+        <article class=" productImg"></article>
+        <article class="infoProduct"></article>
+    </section>
+    <section class="productReview">
+    </section>
 
-<section class="productjl">
-
-<img class="proguctimg" src="./images/buzo1.jpg">
-
-<article class="infoproduct">
-    <h1 >Buzo 1</h1>
-<p><b>Marca:</b> Eureka</p>
-<p><b>Precio:</b> $50000</p>
-<p><b>Categoría </b> Men</p>
-<p><b>Descripción:</b> Buzo cómodo y abrigado de uso cotidiano</p>
-<p><b>Stock:</b> 16 unidades</p>
-<ul class="tags">
-    <li>#cómodo</li>
-    <li>#invierno</li>
-    <li>#básicos</li>
-</ul>
-
-
-</article>
-</section>
-
-<section class="productreview">
-<h2>Sección de reviews</h2>
-<article class="reviews">
-<p>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</p>
-<p>Muy cómodo y buena calidad</p>
-<p>10/04/26</p>
-<p>justina.lorefice@gmail.com</p>
-</article>
-<article class="reviews">
-<p>⭐⭐⭐⭐</p>
-<p>No me gustó la calidad</p>
-<p>10/04/26</p>
-<p>eurcolae@gmail.com</p>
-</article>
-<article class="reviews">
-<p>⭐⭐⭐⭐⭐</p>
-<p>Buena calidad pero mal calce</p>
-<p>10/04/26</p>
-<p>elannes@gmail.com</p>
-</article>
-<article class="reviews">
-<p>⭐⭐⭐⭐⭐⭐⭐⭐⭐</p>
-<p>Muy cómodo y buena calidad</p>
-<p>10/04/26</p>
-<p>mmartegmail.com</p>
-</article>
-</section>
-</section>
+    </section>
 </section>
  
 <footer class="footer">
@@ -107,6 +70,7 @@
 </footer>
 <script src="./js/nav.js"></script>
 <script src="./js/saludo.js"></script>
+<script src="./js/product.js"></script>
 </body>
 
 </html>

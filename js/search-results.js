@@ -21,6 +21,7 @@ fetch(`https://dummyjson.com/products/search?q=${idBusqueda}`)
         if (productos.length === 0) {
             mensaje.style.display = "block"
             titulo.style.display = "none"
+            mensaje.innerText = `No hay resultados para el termino: ${idBusqueda}`
 
         } else {
             for (let i = 0; i < productos.length; i++) {

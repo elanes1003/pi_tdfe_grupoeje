@@ -257,23 +257,26 @@ margin-bottom: 5%;
 .divproductjl {
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
-.productjl {
+.productDetail {
     display: flex;
     flex-direction: row;
     padding: 20px;
+    justify-content: center;
+
 
 }
 
-.productjl img {
+.productImg{
     width: 50%;
-    height: auto;
-    display: block;
-    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.infoproduct {
+.infoProduct {
     display: block;
     background-color: #9c938a;
     width: 50%;
@@ -282,20 +285,20 @@ margin-bottom: 5%;
     height: fit-content;
 }
 
-.infoproduct p {
+.infoProduct p {
     color: white;
     margin-bottom: 6%;
     font-size: 18px;
 }
 
-.infoproduct h1 {
+.infoProduct h1 {
     margin-bottom: 10%;
 }
 
 .tags {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .tags li {
@@ -304,13 +307,13 @@ margin-bottom: 5%;
 
 }
 
-.productreview {
+.productReview {
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
-.reviews {
+.productReview ul {
     border-style: solid;
     border-color: #9c938a;
     border-width: 4px;
@@ -319,13 +322,19 @@ margin-bottom: 5%;
     margin-bottom: 2%;
     padding: 10px;
     background-color: rgba(156, 147, 138, 0.2);
+    list-style-type:none;
 
 }
 
-.reviews p {
+.reviews li {
     color: #5C4A3E;
-    margin-bottom: 0%;
+    list-style-type:none;
+    
+
+    
 }
+
+
 
 
 
@@ -424,30 +433,33 @@ p {
         height: 20px;
     }
 
-    .productjl {
+    .divproductjl {
         flex-direction: column;
     }
 
-    .productjl img {
+    .divproductjl img {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5%;
         border-radius: 8px;
-        height: fit-content;
+        
     }
-
-    .infoproduct {
+.productDetail{
+    display:column;
+    flex-wrap: wrap;
+}
+    .infoProduct {
         width: 100%;
         padding: 10px;
     }
 
-    .infoproduct p {
+    .infoProduct p {
         color: white;
         margin-bottom: 6%;
         font-size: 15px;
     }
 
-    .infoproduct h1 {
+    .infoProduct h1 {
         margin-bottom: 5%;
         font-size: 20px;
     }
