@@ -11,7 +11,7 @@ fetch('https://dummyjson.com/products/category/mobile-accessories')
         let productos = data.products
         let productosMobile = ""
 
-        for (let i = 0; i < productos.length; i++) {
+        for (let i = 0; i < 10; i++) {
             const element = productos[i];
 
             productosMobile += `<article class="producto">
@@ -41,7 +41,7 @@ fetch('https://dummyjson.com/products/category/mobile-accessories')
         let productos = data.products
         let productosSmartphones = ""
 
-        for (let i = 0; i < productos.length; i++) {
+        for (let i = 0; i < 10; i++) {
             const element = productos[i];
 
             productosSmartphones += `<article class="producto">
