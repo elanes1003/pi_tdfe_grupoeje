@@ -10,7 +10,7 @@ saludoPersonalizado.style.display = "none"
 let ocultarLogin=document.querySelector(".ocultarLogin");
 ocultarLogin.style.display="flex";
 
-let ocultarLogout = document.querySelector(".ocultarLogout");
+let ocultarLogout = document.querySelector(".logout");
 ocultarLogout.style.display = "none"
 
 })

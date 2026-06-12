@@ -13,8 +13,8 @@ fetch (`https://dummyjson.com/products/${idProduct}`)
     const product=data;
     console.log(data)
     let tags=" "
-    for (let i = 0; i < product.tags.length; i++) {
-            tags+=`<li>${product.tags[i]}</li>`
+    for (let i = 0; i < 3; i++) {
+            tags+=`<li>#${product.tags[i]}</li>`
     }       
     productImg.innerHTML=
     `<img src=${product.thumbnail}>`
@@ -22,14 +22,14 @@ fetch (`https://dummyjson.com/products/${idProduct}`)
      <h1 >${product.title}</h1>
 <p class="marca">Marca: ${product.brand} </p>
 <p class="precio">Precio: $${product.price}</p>
-<p class="categoria">Categoría: ${product. category} </p>
-<p class="descripcion"><Descripción: ${product.description}</p>
+<p class="categoria">Categoría: <a href="./category.html?id=${product.category}">${product.category}</a></p>
+<p class="descripcion">Descripción: ${product.description}</p>
 <p class="stock">Stock: ${product.stock}</p>
 <ul class="tags">
 ${tags}
 </ul>`
 let reviews=""
- for (let i = 0; i<3; i++) {
+ for (let i = 0; i < product.reviews.length; i++) {
             reviews+=`
             <ul>
                     <li>rating: ${product.reviews[i].rating}</li>
