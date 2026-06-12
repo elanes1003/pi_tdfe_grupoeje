@@ -9,12 +9,12 @@ fetch('https://dummyjson.com/products/category/mobile-accessories')
         console.log(data)
 
         let productos = data.products
-        let productosIndex = ""
+        let productosMobile = ""
 
         for (let i = 0; i < productos.length; i++) {
             const element = productos[i];
 
-            productosIndex += `<article class="producto">
+            productosMobile += `<article class="producto">
                     <img src="${element.thumbnail}" alt="${element.title}">
                     <h3>${element.title}</h3>
                     <h3>$${element.price}</h3>
@@ -24,7 +24,7 @@ fetch('https://dummyjson.com/products/category/mobile-accessories')
                 </article>`
             
         };
-        nuestrosProductos.innerHTML = productosIndex;
+        nuestrosProductos.innerHTML = productosMobile;
     })
 
     .catch(function(error) {
@@ -39,12 +39,12 @@ fetch('https://dummyjson.com/products/category/mobile-accessories')
         console.log(data)
 
         let productos = data.products
-        let productosIndex = ""
+        let productosSmartphones = ""
 
         for (let i = 0; i < productos.length; i++) {
             const element = productos[i];
 
-            productosIndex += `<article class="producto">
+            productosSmartphones += `<article class="producto">
                     <img src="${element.thumbnail}" alt="${element.title}">
                     <h3>${element.title}</h3>
                     <h3>$${element.price}</h3>
@@ -54,7 +54,7 @@ fetch('https://dummyjson.com/products/category/mobile-accessories')
                 </article>`
             
         };
-        productosDestacados.innerHTML = productosIndex;
+        productosDestacados.innerHTML = productosSmartphones;
 
     })
 

@@ -17,6 +17,9 @@
 }
 .saludoPersonalizado{
     display:none;
+    align-items: center;
+    flex-direction: row;    
+    margin-left: 10px;
 }
 
 
@@ -190,7 +193,10 @@ aside{
     height: 30px;
 }
 
-
+.logout{
+    margin-right: 10px;
+    display: none;
+}
 
 
 /* CATEGORY */

@@ -9,7 +9,7 @@ saludo.style.display="flex";
 let ocultarLogin=document.querySelector(".ocultarLogin");
 ocultarLogin.style.display="None";
 let logout= document.querySelector(".logout");
-logout.style.display="flex";
+logout.style.display="inline";
 let barraBusqueda=document.querySelector(".barraBusqueda")
 barraBusqueda.style.display="flex"
 }
