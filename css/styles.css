@@ -100,6 +100,7 @@ aside{
 
 .main {
     margin-left: 5%;
+    margin-bottom: 50px;
 }
 
 .nuestrosproductos {
@@ -115,6 +116,7 @@ aside{
     justify-content: center;
     margin-bottom: 5%;
     padding: 20px;
+    height: 450px;
 }
 
 .product p {
